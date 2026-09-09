@@ -1,0 +1,16 @@
+# Local dependencies and macOS metadata
+node_modules/
+.DS_Store
+
+# Submission packages and screenshot/video evidence
+screenshots*/
+*-submission/
+*.zip
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.mov
+*.mp4
