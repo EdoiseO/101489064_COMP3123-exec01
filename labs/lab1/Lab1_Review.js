@@ -32,7 +32,7 @@ console.log(oneTimeUseObj.prop1);
 console.log(oneTimeUseObj.prop2);
 oneTimeUseObj.method1("pizza");
 
-//Prototype - using a costructor
+//Prototype - using a constructor
 function Student(student_name_p, course_p, lunch_p) {
   this.student_name = student_name_p;
   this.course = course_p;
@@ -49,7 +49,7 @@ console.log(morning_student.course);
 console.log(morning_student.lunch);
 console.log(morning_student.method1);
 
-//Classes - always have costructors
+//Classes - always have constructors
 class Prof {
   constructor(prof_name_p) {
     this.prof_name = prof_name_p;
@@ -64,6 +64,6 @@ console.log(morning_prof.prof_name);
 morning_prof.method1("burger");
 
 /*
-    Optional Homework:  Practice a callback funciton using an array and
+    Optional Homework:  Practice a callback function using an array and
     the .map() method
 */
