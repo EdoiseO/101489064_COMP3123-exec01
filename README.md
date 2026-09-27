@@ -12,11 +12,16 @@ labs/
 │   ├── Lab1_Review.html
 │   ├── Lab1_Review.js
 │   └── Lab1_node.js
-└── lab2/
-    ├── Lab2_array_methods.js
-    ├── Lab2_fetch.js
-    ├── Lab2_promise.html
-    └── Lab2_promise.js
+├── lab2/
+│   ├── Lab2_array_methods.js
+│   ├── Lab2_fetch.js
+│   ├── Lab2_promise.html
+│   └── Lab2_promise.js
+└── lab3/
+    ├── Employee.js
+    ├── index.js
+    ├── package.json
+    └── README.md
 ```
 
 ## Lab 1
@@ -58,3 +63,24 @@ node labs/lab2/Lab2_array_methods.js
 ```
 
 Open `labs/lab2/Lab2_promise.html` with a local development server, then open the browser developer console and refresh the page to view the promise and fetch output.
+
+## Lab 3
+
+Node.js HTTP server completed from the Week 3 starter project.
+
+- `labs/lab3/Employee.js` exports the supplied employee records.
+- `labs/lab3/index.js` serves the welcome page and employee endpoints.
+
+### Run Lab 3
+
+```sh
+cd labs/lab3
+node index.js
+```
+
+Open these URLs in a browser:
+
+- <http://localhost:8081/>
+- <http://localhost:8081/employee>
+- <http://localhost:8081/employee/names>
+- <http://localhost:8081/employee/totalsalary>
