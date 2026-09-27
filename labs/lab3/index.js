@@ -1,3 +1,7 @@
+/*
+ * Purpose: Main entry point for the Lab 3 Node.js HTTP server.
+ */
+
 const http = require("http");
 const employees = require("./Employee");
 
