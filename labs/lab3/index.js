@@ -1,5 +1,11 @@
 /*
  * Purpose: Main entry point for the Lab 3 Node.js HTTP server.
+ *
+ * Routes:
+ *   /                     Welcome message
+ *   /employee             All employee records
+ *   /employee/names       Employee full names in ascending order
+ *   /employee/totalsalary Total employee salary
  */
 
 const http = require("http");
