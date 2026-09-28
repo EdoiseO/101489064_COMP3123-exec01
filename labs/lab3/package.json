@@ -1,38 +1,20 @@
 {
-  "name": "lab03",
-  "version": "1.0.0",
-  "description": "Lab 03",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./index.js localhost 8081",
-    "start": "nodemon ./index.js"
-  },
-  "keywords": [
-    "sample",
-    "js",
-    "html",
-    "node",
-    "express",
-    "framework",
-    "sinatra",
-    "web",
-    "rest",
-    "restful",
-    "router",
-    "app",
-    "api"
-  ],
-  "author": {
-    "name": "Pritesh Patel",
-    "email": "sample@gb.ca"
-  },
-  "homepage": "https://nodejs.org/",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  }
+    "name": "Week03_Lab",
+    "version": "1.0.0",
+    "description": "Sample Node.js server and running it",
+    "main": "main.js",
+    "scripts": {
+        "start": "nodemon ./main.js localhost 8088"
+    },
+    "keywords": [
+        "node.js",
+        "web server",
+        "http",
+        "writing to a server"
+    ],
+    "author": "Phillip Onofua",
+    "license": "ISC",
+    "dependencies": {
+        "nodemon": "^2.0.12"
+    }
 }

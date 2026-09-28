@@ -18,10 +18,11 @@ labs/
 │   ├── Lab2_promise.html
 │   └── Lab2_promise.js
 └── lab3/
-    ├── Employee.js
-    ├── index.js
-    ├── package.json
-    └── README.md
+    ├── data.js
+    ├── employees.json
+    ├── main.js
+    ├── package-lock.json
+    └── package.json
 ```
 
 ## Lab 1
@@ -66,21 +67,17 @@ Open `labs/lab2/Lab2_promise.html` with a local development server, then open th
 
 ## Lab 3
 
-Node.js HTTP server completed from the Week 3 starter project.
+Node.js HTTP server from the Week 3 recording.
 
-- `labs/lab3/Employee.js` exports the supplied employee records.
-- `labs/lab3/index.js` serves the welcome page and employee endpoints.
+- `labs/lab3/main.js` serves the recorded example's `/`, `/name`, `/users`, and `/userlist` routes on port 8088.
+- `labs/lab3/data.js` exports the user ID and first name.
+- `labs/lab3/employees.json` stores the sample users, with Phillip Onofua (professor) as user 1.
 
 ### Run Lab 3
 
 ```sh
 cd labs/lab3
-node index.js
+node main.js
 ```
 
-Open these URLs in a browser:
-
-- <http://localhost:8081/>
-- <http://localhost:8081/employee>
-- <http://localhost:8081/employee/names>
-- <http://localhost:8081/employee/totalsalary>
+Open `http://localhost:8088/`, `/name`, `/users`, and `/userlist`. After `npm install`, `npm start` runs this example with nodemon.
