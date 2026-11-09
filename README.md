@@ -81,3 +81,17 @@ node main.js
 ```
 
 Open `http://localhost:8088/`, `/name`, `/users`, and `/userlist`. After `npm install`, `npm start` runs this example with nodemon.
+
+## Week 9 classroom lab
+
+`labs/lab9-classwork/` preserves the in-class React and Vite example: a course list, a functional College component, and a Student class component with a PASS/FAIL toggle.
+
+```sh
+cd labs/lab9-classwork
+npm ci
+npm run dev
+```
+
+Run `npm run build` to create a production build.
+
+The completed **Lab Exercise 7 (Week 9)** submission is maintained separately at [101489064_COMP3123-exec07](https://github.com/EdoiseO/101489064_COMP3123-exec07).
