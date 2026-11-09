@@ -21,3 +21,7 @@ npm run preview
 ```
 
 `App` and `College` are functional components. `Student` is a class component.
+
+## Folder guide
+
+`index.html` loads `src/main.jsx`, which renders `src/App.jsx`. The College and Student components are in `src/components/`. `index.css` styles the page, and `src/assets/react.svg` supplies the logo. This folder is Week 9 teaching material submitted as Lab Exercise 7.

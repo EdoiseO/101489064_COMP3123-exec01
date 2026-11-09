@@ -55,3 +55,7 @@ The scripts locate `Logs` relative to themselves, so creation and removal use th
 ## Screenshot evidence
 
 The `screenshots` folder contains genuine VS Code captures of the executed programs. A separate screenshot PDF is provided with the submission files.
+
+## Folder guide
+
+This copy is stored at `labs/labtest1` in the combined labs repository. Run the commands above from this folder. The separate submission repository remains linked above.

@@ -59,3 +59,7 @@ PUT body:
 All five fields are required strings. Priority accepts `HIGH`, `LOW` or `MEDIUM`. Dates retain the strings supplied in the course example. Missing content, schema validation failures, malformed JSON and invalid IDs return 400. A valid ID with no matching note returns 404. Unexpected server/database errors return 500.
 
 Submit the source ZIP `101489064_COMP3123-exec06.zip`, separate genuine Postman screenshots, and the required GitHub repository link. Exclude `.env` and `node_modules` from the ZIP and repository.
+
+## Folder guide
+
+`server.js` connects the database and mounts the router. `models/NotesModel.js` defines the schema; `routes/notesRoutes.js` implements CRUD. Import `Lab6.postman_collection.json` into Postman for the saved requests. `.env.example` contains placeholders only.

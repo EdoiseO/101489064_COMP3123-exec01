@@ -22,3 +22,7 @@ The server runs at `http://localhost:8080`. Use `npm run dev` for nodemon.
 - `GET /instruction.html` serves the provided instructions using static middleware.
 
 Import `Lab4.postman_collection.json` into Postman to run the seven success/error checks. For the array request, set `Content-Type: application/json`.
+
+## Folder guide
+
+`index.js` starts the Express app; `public/` contains static HTML pages. `Lab4.postman_collection.json` contains the API requests.

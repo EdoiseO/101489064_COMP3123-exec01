@@ -59,3 +59,7 @@ The native Postman captures retain their original filenames and bytes. Their
 The separate submission screenshot PDF includes these captures, the browser
 login/logout evidence, and the genuine signed-in MongoDB Atlas overview.
 The local sample login is not Atlas evidence.
+
+## Folder guide
+
+`index.js`, `routes/users.js`, `home.html` and `user.json` implement the exercise. `server.js`, `Books.js` and `Computers.js` preserve the logging demonstration. `tests/routes.test.js` contains the route checks.
