@@ -3,10 +3,11 @@ import { createRoot } from "react-dom/client";
 import "../index.css";
 import App from "./App.jsx";
 
-// Equivalent to
-// ReactDOM.render(<App>, document.getElementById("root")
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App />
+    <App
+      title="Welcome to Fullstack Development - I"
+      subtitle="React JS Programming Week09 Lab exercise"
+    />
   </StrictMode>,
 );

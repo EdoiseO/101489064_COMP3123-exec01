@@ -14,3 +14,6 @@ screenshots*/
 *.webp
 *.mov
 *.mp4
+
+# Preserved local classroom snapshot
+labs/lab9-classwork/
